@@ -1,0 +1,202 @@
+/* basic settings */
+
+a
+{
+    color: #000;
+    text-decoration: none;
+}
+
+.card
+{
+    height: auto;
+    padding: 2px;
+    margin: 15%;
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.3);
+    border: 1px solid #555;
+    background-color: #eee;
+}
+
+.card:hover
+{
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.6);
+}
+
+img
+{
+    width: 100%;
+}
+
+.container
+{
+
+}
+
+hr
+{
+    border: 1px solid #000;
+    margin: 5%;
+}
+
+/* adjustments for different screen sizes */
+
+@media screen and (min-width: 300px)
+{
+    .card
+    {
+        font-size: 7px;
+    }
+
+    img
+    {
+        height: 60px;
+    }
+
+    .container
+    {
+        height: 70px;
+    }
+}
+
+@media screen and (min-width: 350px)
+{
+    .card
+    {
+        font-size: 8px;
+    }
+
+    img
+    {
+        height: 70px;
+    }
+
+    .container
+    {
+        height: 80px;
+    }
+}
+
+@media screen and (min-width: 420px)
+{
+    .card
+    {
+        font-size: 10px;
+    }
+
+    img
+    {
+        height: 80px;
+    }
+
+    .container
+    {
+        height: 90px;
+    }
+}
+
+@media screen and (min-width: 500px)
+{
+    .card
+    {
+        font-size: 11px;
+    }
+
+    img
+    {
+        height: 90px;
+    }
+
+    .container
+    {
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 600px)
+{
+    .card
+    {
+        font-size: 12px;
+    }
+
+    img
+    {
+        height: 90px;
+    }
+
+    .container
+    {
+        height: 120px;
+    }
+}
+
+@media screen and (min-width: 800px)
+{
+    .card
+    {
+        font-size: 14px;
+    }
+
+    img
+    {
+        height: 100px;
+    }
+
+    .container
+    {
+        height: 140px;
+    }
+}
+
+@media screen and (min-width: 1100px)
+{
+    .card
+    {
+        font-size: 15px;
+    }
+
+    img
+    {
+        height: 120px;
+    }
+
+    .container
+    {
+        height: 160px;
+    }
+}
+
+@media screen and (min-width: 1300px)
+{
+    .card
+    {
+        font-size: 16px;
+    }
+
+    img
+    {
+        height: 150px;
+    }
+
+    .container
+    {
+        height: 180px;
+    }
+}
+
+@media screen and (min-width: 1500px)
+{
+    .card
+    {
+        font-size: 17px;
+    }
+
+    img
+    {
+        height: 180px;
+    }
+
+    .container
+    {
+        height: 200px;
+    }
+}

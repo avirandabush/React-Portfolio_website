@@ -1,0 +1,75 @@
+/* basic settings */
+
+.contact
+{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: 0 10px 50px 10px;
+}
+
+.contact-icon
+{
+    color: #888;
+}
+
+.contact-icon:hover
+{
+    color: #555;
+}
+
+/* adjustments for different screen sizes */
+
+@media screen and (min-width: 300px)
+{
+    .contact-icon
+    {
+        font-size: 25px;
+        margin: 5px;
+    }
+}
+
+@media screen and (min-width: 350px)
+{
+    .contact-icon
+    {
+        font-size: 30px;
+        margin: 9px;
+    }
+}
+
+@media screen and (min-width: 420px)
+{
+    .contact-icon
+    {
+        font-size: 35px;
+        margin: 12px;
+    }
+}
+
+@media screen and (min-width: 500px)
+{
+    .contact-icon
+    {
+        font-size: 40px;
+        margin: 15px;
+    }
+}
+
+@media screen and (min-width: 900px)
+{
+    .contact-icon
+    {
+        font-size: 45px;
+        margin: 18px;
+    }
+}
+
+@media screen and (min-width: 1500px)
+{
+    .contact-icon
+    {
+        font-size: 50px;
+        margin: 20px;
+    }
+}

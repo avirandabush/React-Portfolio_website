@@ -1,0 +1,57 @@
+/* basic settings */
+
+h1
+{
+    font-weight: 500;
+    margin-top: 7%;
+}
+
+/* adjustments for different screen sizes */
+
+@media screen and (min-width: 300px)
+{
+    h1
+    {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 350px)
+{
+    h1
+    {
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 420px)
+{
+    h1
+    {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 500px)
+{
+    h1
+    {
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 900px)
+{
+    h1
+    {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1500px)
+{
+    h1
+    {
+        font-size: 45px;
+    }
+}

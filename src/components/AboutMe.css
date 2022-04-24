@@ -1,0 +1,14 @@
+/* basic settings */
+
+.about-me
+{
+    font-family: 'Annie Use Your Telescope';
+    font-weight: 600;
+    font-size: larger;
+    margin: 5%;
+}
+
+.about-me h2
+{
+    font-weight: bold;
+}
